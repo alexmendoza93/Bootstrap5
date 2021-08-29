@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #e3e3e9;
+}
+.container {
+  margin-top: 20px;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.columna {
+  background: #f2f2f2;
+  text-align: center;
+  border: solid 1px black;
+  padding: 10px;
+}
+
+header {
+  color: #fff;
+  background: #9ed845;
+  padding: 15px;
+}
+aside {
+  background: #c7d8dd;
+  color: #5e8dd2;
+  height: 230px;
+  padding: 60px 0;
+}
+main {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.cards > div {
+  background: #2c9cee;
+  color: #fff;
+  padding: 25px;
+}
+
+footer {
+  background: black;
+  color: #fff;
+  padding: 20px;
+}
+
+div {
+  margin-bottom: 20px;
+}
