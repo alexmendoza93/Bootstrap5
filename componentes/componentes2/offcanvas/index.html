@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Offcanvas</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- este es un link tipo boton -->
+    <a
+      class="btn btn-outline-primary"
+      data-bs-toggle="offcanvas"
+      href="#offcanvasExample"
+      role="button"
+      aria-controls="offcanvasExample"
+    >
+      Link with href
+    </a>
+    <!-- este es un boton que igual abre el offcanvas -->
+    <!-- es el data-bs-target el que referencia con el offcanvas -->
+    <button
+      class="btn btn-outline-primary"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasExample1"
+      aria-controls="offcanvasExample"
+    >
+      Button with data-bs-target
+    </button>
+    <!-- aqui empieza el offcanvas -->
+    <!-- este es el cuerpo oculto del canvas -->
+    <div
+      class="offcanvas offcanvas-bottom"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+      data-bs-backdrop="false"
+    >
+      <!-- este es el contenido del canvas -->
+      <!-- titilo de canvas -->
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas 1</h5>
+        <!-- este es el boton de cierre del canvas -->
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Cerrar"
+        ></button>
+      </div>
+
+      <!-- texto del canvas -->
+      <div class="offcanvas-body">
+        <div>
+          Some text as placeholder. In real life you can have the elements you
+          have chosen. Like, text, images, lists, etc.
+        </div>
+        <!-- seccion dropdown del offcanvas -->
+        <div class="dropdown mt-3">
+          <!-- este es el botton dropdown  -->
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-bs-toggle="dropdown"
+          >
+            Dropdown button
+          </button>
+          <!-- este es el contenido del boton dropdown -->
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasExample1"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <!-- este es el contenido del canvas -->
+      <!-- titilo de canvas -->
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas 2</h5>
+        <!-- este es el boton de cierre del canvas -->
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+
+      <!-- texto del canvas -->
+      <div class="offcanvas-body">
+        <div>
+          Some text as placeholder. In real life you can have the elements you
+          have chosen. Like, text, images, lists, etc.
+        </div>
+        <!-- seccion dropdown del offcanvas -->
+        <div class="dropdown mt-3">
+          <!-- este es el botton dropdown  -->
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-bs-toggle="dropdown"
+          >
+            Dropdown button
+          </button>
+          <!-- este es el contenido del boton dropdown -->
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
